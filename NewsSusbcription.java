@@ -1,4 +1,4 @@
-public class NewsStation {
+public class NewsSubscription {
     public static void main(String[] args){
         NewsAgency newsAgency = new NewsAgency();
 
@@ -10,7 +10,7 @@ public class NewsStation {
         newsAgency.subscribe(moist);
         newsAgency.subscribe(garen);
 
-        newsAgency.setNews("A kid has fell down to a Gorilla pit in Cincinnati Zoo and Botanical Garden!\n");
+        newsAgency.setNews("A kid fell down to a Gorilla pit in Cincinnati Zoo and Botanical Garden!\n");
         newsAgency.notifySubscribers();
 
         newsAgency.setNews("Mr. President the second tower has been hit.\n");

@@ -27,7 +27,14 @@ Expected Behavior:
 When the news agency publishes breaking news, all subscribed users should receive immediate updates.
 Subscribers can join or leave the service without affecting the delivery of news to other subscribers.
 The system should provide flexibility for future enhancements, such as personalized subscriptions or categorization of news updates.
-Constraints:
+
+
 
 The system should be scalable to handle a growing number of subscribers without compromising performance.
 Ensure that the implementation follows object-oriented design principles and promotes loose coupling between the news agency and subscribers.
+
+
+
+![Observer Pattern](https://github.com/user-attachments/assets/c9f217d4-2cdf-4ccf-be51-633d9412a8fe)
+
+
